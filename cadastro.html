@@ -8,16 +8,18 @@
 </head>
 <body>
     <div class="corpo">
-        <form action="">
+        <form action="Enviar" method="POST">
             <h2>Cadastro</h2>
             <h4>Nome</h4>
-            <input type="text" name="" placeholder="Digite aqui seu nome" id="" required>
+            <input type="text" name="" placeholder="Digite aqui seu nome" id="inputname" required>
             <h4>E-mail</h4>
-            <input type="text" name="" placeholder="Digite aqui seu e-mail" id="" required>
+            <input type="text" name="" placeholder="Digite aqui seu e-mail" id="inputemail" required>
             <h4>Senha</h4>
-            <input type="password" name="" placeholder="Digite aqui sua senha" id="" required>
-            <input type="submit" formaction="login.html" value="Cadastrar">
+            <input type="password" name="" placeholder="Digite aqui sua senha" id="inputsenha" required>
+            <button type="button" onclick="Enviar()"  formaction="" value="Cadastrar">
         </form>
     </div>
+
+    <script src="./cadastro.js"></script>
 </body>
 </html>
